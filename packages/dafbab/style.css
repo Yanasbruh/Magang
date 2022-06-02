@@ -1,0 +1,122 @@
+:root {
+  --mainColor: #02283e;
+  --secondColor: #0f547b;
+  --thirdColor: #569ec7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--mainColor);
+}
+
+#head h1 {
+  color: white;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.head .bab {
+  background-color: var(--secondColor);
+  height: 60vh;
+  width: 30vw;
+  display: flex;
+  border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 7px 7px rgba(0, 0, 0, 0.786);
+  transition: 300ms ease-in-out;
+}
+
+.head .bab:hover {
+  background-color: rgba(20, 5, 60, 0.72);
+}
+
+.head {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+}
+
+.head .bab .text {
+  text-align: center;
+  padding: 50px;
+  color: white;
+}
+
+.head .bab .text p {
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.head .bab .text button {
+  width: 130px;
+  height: 40px;
+  background-color: var(--thirdColor);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.head .bab .text button a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-head {
+  display: flex;
+  justify-content: center;
+}
+
+.head .bab .text button:hover {
+  opacity: 0.5;
+}
+
+.icon {
+  margin-top: 10px;
+  align-items: center;
+  font-size: 50px;
+  margin-bottom: 10px;
+}
+
+#head .balik {
+  margin: 100px auto;
+  width: 300px;
+  height: 70px;
+  background-color: var(--secondColor);
+  border: none;
+  border-radius: 5px;
+}
+
+#head .balik {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#head .balik:hover {
+  background-color: rgba(20, 5, 60, 0.72);
+}
+
+@media screen and (max-width: 768px) {
+  .head .bab {
+    width: 50vw;
+  }
+  .babbab-5 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .head .bab {
+    width: 100vw;
+  }
+}

@@ -1,0 +1,228 @@
+:root {
+  --mainColor: #02283e;
+  --secondColor: #0f547b;
+  --thirdColor: #569ec7;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+body {
+  background-color: var(--mainColor);
+  padding: 0 10px;
+}
+.active {
+  font-weight: 700;
+  color: var(--thirdColor);
+}
+
+.header h1 {
+  color: white;
+  text-align: center;
+  font-weight: 800;
+  font-size: 3rem;
+  text-transform: uppercase;
+  margin-top: 3rem;
+}
+
+.kegiatan {
+  color: white;
+  margin-top: 2rem;
+}
+.kegiatan h1 {
+  margin-bottom: 50px;
+  font-size: 40px;
+  text-align: center;
+}
+.kegiatan h2 {
+  font-size: 26px;
+  margin-bottom: 50px;
+}
+.kegiatan p {
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.ringkasan {
+  color: white;
+  margin-top: 30px;
+}
+.table-text h2 {
+  font-weight: 500;
+  margin: 50px 0;
+}
+.ringkasan .table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.ringkasan .table table {
+  width: 100%;
+  height: 200px;
+}
+.header-table {
+  background-color: var(--secondColor);
+  color: white;
+}
+table,
+tr,
+td {
+  color: var(--secondColor);
+}
+tr {
+  text-align: center;
+}
+tr,
+td {
+  background-color: white;
+}
+.project-web .tahap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tugas {
+  color: white;
+  margin-top: 30px;
+}
+.tugas h1 {
+  text-align: center;
+}
+.tugas .project-text {
+  margin: 50px 0;
+}
+
+.tahap p,
+.tahap img {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tahap img {
+  width: 1050px;
+  border-radius: 10px;
+}
+
+.tahap22 p {
+  font-size: 25px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.tahap22 img {
+  width: 1050px;
+  display: flex;
+}
+
+.but button {
+  border-radius: 15px;
+  background-color: var(--thirdColor);
+  width: 200px;
+  height: 50px;
+  margin: 100px 0px;
+  border: none;
+}
+
+.but p {
+  font-size: 18px;
+  color: var(--mainColor);
+  font-weight: 800;
+}
+
+@media screen and (max-width: 768px) {
+  .tahap img {
+    width: 85vw;
+    border-radius: 10px;
+  }
+
+  .tahap p,
+  .tahap img {
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+  }
+
+  .tahap22 p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .tahap22 img {
+    width: 85vw;
+    border-radius: 10px;
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .kegiatan h1 {
+    font-size: 1rem;
+  }
+
+  .kegiatan h2 {
+    font-size: 1rem;
+  }
+
+  .kegiatan p {
+    font-size: 1rem;
+  }
+
+  .table-text h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 20px 0;
+  }
+
+  .tugas h1 {
+    text-align: center;
+    font-size: 1rem;
+  }
+
+  .project-text h2 {
+    font-size: 1rem;
+  }
+
+  .tahap p,
+  .tahap img {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .tahap img {
+    width: 85vw;
+    border-radius: 10px;
+  }
+
+  .tahap22 p {
+    font-size: 12px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .tahap22 img {
+    width: 85vw;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  .but button {
+    border-radius: 8px;
+    background-color: var(--thirdColor);
+    width: 150px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+  }
+}

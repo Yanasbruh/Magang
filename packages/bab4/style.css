@@ -1,0 +1,105 @@
+:root {
+  --mainColor: #02283e;
+  --secondColor: #0f547b;
+  --thirdColor: #569ec7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--mainColor);
+  overflow-x: hidden;
+  color: white;
+  padding: 20px 100px;
+}
+
+.pen {
+  color: white;
+  text-align: center;
+}
+
+.pen h1 {
+  margin-top: 2rem;
+  font-size: 3em;
+  font-weight: 800;
+  color: var(--secondColor);
+}
+.pen p {
+  font-size: 3rem;
+  margin-top: 1rem;
+  font-weight: 800;
+  color: var(--secondColor);
+}
+
+.kesimpulan {
+  margin-top: 2em;
+}
+
+.kesimpulan h1 {
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.kesimpulan p {
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.saran h1 {
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-top: 1rem;
+}
+
+.saran p {
+  font-weight: 700;
+  font-size: 1em;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.saran h2 {
+  font-weight: 800;
+  text-transform: uppercase;
+
+  margin-top: 2rem;
+}
+
+.but button {
+  border-radius: 15px;
+  background-color: var(--thirdColor);
+  width: 200px;
+  height: 50px;
+  margin-top: 100px;
+  cursor: pointer;
+  border: none;
+}
+
+.but p {
+  font-size: 18px;
+  color: var(--mainColor);
+  font-weight: 800;
+}
+
+@media screen and (max-width: 578px) {
+  body {
+    padding: 0px 10px;
+  }
+
+  .but button {
+    border-radius: 8px;
+    background-color: var(--thirdColor);
+    width: 150px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+  }
+}

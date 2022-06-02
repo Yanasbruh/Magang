@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perkenalan</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="bird">
+      <div class="tron">
+        <p>.</p>
+        <div class="jumbo" data-aos="fade-up" data-aos-duration="500">
+          <img src="img/profile1.jpeg" alt="" />
+        </div>
+      </div>
+      <div class="caption" data-aos="fade-up" data-aos-duration="800">
+        <h1>Dewa Krsna Prema Yana</h1>
+        <p>Hallo, perkenalkan saya dewa krsna biasa dipanggil</p>
+        <p>krsna.Saya berasal dari ubud dan saya berusia 16 tahun</p>
+      </div>
+      <div class="project" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Project Yang Pernah Saya Buat</h1>
+        <div class="gambar">
+          <div class="gambar1">
+            <center><img src="img/vexa.png" alt="" /></center>
+            <p>Vexa Store</p>
+          </div>
+          <div class="gambar2">
+            <center><img src="img/travel.png" alt="" /></center>
+            <p>Travelskuy</p>
+          </div>
+        </div>
+        <div class="tbl" data-aos="zoom-in" data-aos-duration="1000">
+        <a href="packages/dafbab/dafbab.html">
+          <center>
+            <button>
+              <p>Daftar Bab</p>
+            </button>
+          </center>
+        </a>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.trunk.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.topology.min.js"></script>
+    <script>
+      VANTA.TOPOLOGY({
+        el: "#bird",
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.0,
+        minWidth: 200.0,
+        scale: 1.0,
+        scaleMobile: 1.0,
+        color: 0x266eb3,
+        backgroundColor: 0x02283e,
+      });
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({ once: true });
+    </script>
+  </body>
+</html>

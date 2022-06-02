@@ -1,0 +1,247 @@
+:root {
+  --mainColor: #02283e;
+  --secondColor: #0f547b;
+  --thirdColor: #569ec7;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: var(--mainColor);
+  overflow-x: hidden;
+  color: white;
+  padding: 20px 100px;
+}
+
+.tin {
+  color: var(--secondColor);
+  text-align: center;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.tin h1 {
+  margin-top: 2rem;
+  font-size: 3em;
+  font-weight: 800;
+  color: var(--secondColor);
+}
+.tin p {
+  font-size: 2rem;
+  margin-top: 1rem;
+  font-weight: 800;
+  color: var(--secondColor);
+}
+
+.sejarah {
+  margin-top: 2em;
+  text-align: center;
+}
+
+.sejarah h1 {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.sejarah p {
+  font-weight: 800;
+  font-size: 1em;
+  margin-top: 1rem;
+  text-align: justify;
+}
+
+.visi {
+  font-weight: 800;
+  margin-top: 3rem;
+}
+
+.visi h1 {
+  font-weight: 800;
+  text-align: center;
+}
+
+.visi h2 {
+  margin-top: 2rem;
+  font-weight: 800;
+}
+
+.but button {
+  border-radius: 15px;
+  background-color: var(--thirdColor);
+  width: 200px;
+  height: 50px;
+  margin-top: 100px;
+  border: none;
+}
+
+.but p {
+  font-size: 18px;
+  color: var(--mainColor);
+  font-weight: 800;
+}
+
+.logo1 h1 {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.logo {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.logo img {
+  width: 500px;
+  height: 230px;
+}
+
+.logo h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-align: justify;
+}
+
+.logo p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+.struktur h1 {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.struktur img {
+  margin-top: 2rem;
+  width: 50%;
+  height: 50%;
+}
+
+.tugas p {
+  font-size: 1.2rem;
+  text-align: justify;
+  font-weight: 500;
+}
+
+.produk h1 {
+  font-weight: 800;
+  text-align: center;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.produk h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.produkk {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: 700;
+  margin-top: 1rem;
+}
+.produkk img {
+  margin-top: 1rem;
+  width: 35%;
+}
+
+.jasa h2 {
+  font-weight: 800;
+  text-align: left;
+  margin-top: 2rem;
+  text-transform: uppercase;
+}
+
+.jasa p {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: 700;
+}
+
+.jasa img {
+  margin-top: 1rem;
+  width: 35%;
+}
+
+@media screen and (max-width: 768px) {
+  .jasa p {
+    margin-left: 0;
+  }
+
+  .logo p {
+    font-size: 1rem;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body {
+    padding: 0 10px;
+    margin: 0;
+  }
+
+  .tin p {
+    font-size: 1rem;
+  }
+
+  .sejarah p {
+    font-size: 10px;
+  }
+
+  .logo img {
+    width: 500px;
+    height: 200px;
+  }
+
+  .logo p {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .tugas p {
+    font-size: 1rem;
+  }
+
+  .produk h1 {
+    font-size: 1.5rem;
+  }
+
+  .produk h2 {
+    font-weight: 800;
+    text-align: left;
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+  }
+
+  .jasa p {
+    margin-left: 0px;
+  }
+
+  .jasa img {
+    margin-left: 5%;
+  }
+
+  .but button {
+    border-radius: 8px;
+    background-color: var(--thirdColor);
+    width: 150px;
+    height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border: none;
+  }
+}
